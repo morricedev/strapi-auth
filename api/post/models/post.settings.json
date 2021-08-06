@@ -14,11 +14,13 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "minLength": 3
     },
     "content": {
       "type": "richtext",
-      "required": true
+      "required": true,
+      "minLength": 3
     },
     "user": {
       "plugin": "users-permissions",
